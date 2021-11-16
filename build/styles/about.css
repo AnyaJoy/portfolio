@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+
+#loading {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    min-width: -webkit-fill-available;
+    display: none;
+    
+}
+
+#loading.display {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+
+a:hover{
+    color: rgb(94, 93, 93);
+}
+
+#content-wrapper {
+    width: 100%;
+
+    background-image: url('../images/anya_background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 70px;
+}
+
+#white-top-line {
+    height: 2%;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo-wrapper {
+    height: 80%;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255);
+
+    margin: 0 0 0 5%;
+
+    font-family: 'Ephesis', cursive;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: 5px 10px 0 10px;
+    color: #6814D9FF;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+    
+}
+
+#navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    width: 30%;
+    height: 80%;
+    border-radius: 12px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    margin: 0 5% 0 0;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 40px 4px;
+
+    padding-top: 17px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: rgb(94, 93, 93);
+}
+
+#navbar-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    color: black;
+}
+
+.nav-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color: #6814D9FF;
+}
+
+.separation-line {
+    height: 80%;
+    width: 0.5px;
+    margin-top: 4px;
+    background-color: rgb(189, 189, 189);
+}
+
+#text-wrapper {
+    margin-top: 50px;
+    width: 70%;
+    height: 340px;
+    margin: auto;
+    border-radius: 12px 12px;
+    background-color: rgba(255, 255, 255, 0.95);
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+    margin-top: 40px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    color: rgb(92, 92, 92);
+
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+#map-wrapper {
+    display: flex;
+    align-items: center;
+
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+
+    border-radius: 12px 12px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#map {
+    margin: auto;
+    height: 98%;
+    width: 99%;
+}
+
+#map-description {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+#buttons-wrapper {
+    display: flex;
+
+    font-size: 0.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.map-button {
+    height: 100%;
+    border-radius: 12px 12px;
+
+    background-color: rgba(255, 255, 255, 0.959);
+    color: rgb(54, 53, 53);
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    padding: 0 5px 0 5px;
+    margin-left: 10px;
+}
+
+.map-button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.disabled {
+    color: rgba(128, 128, 128, 0.815);
+}
+
+#description-text {
+    height: 100%;
+    border-radius: 12px 12px;
+    padding: 0 10px 0 10px;
+
+    background-color: rgba(255, 255, 255, 0.774);
+    color: rgb(54, 53, 53);
+
+    font-size: 0.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#my-name {
+    color: #6814D9FF;
+    font-family: 'Ephesis', cursive;
+    font-weight:bolder;
+    font-size: 2rem;
+}
+
+
+
